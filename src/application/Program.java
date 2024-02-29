@@ -8,7 +8,7 @@ public class Program {
   
 
 		ChessMatch chessMatch = new ChessMatch();
-		UI.PrintBoard(chessMatch.getPieces());
+		UI.printBoard(chessMatch.getPieces());
 	
  }
 }
