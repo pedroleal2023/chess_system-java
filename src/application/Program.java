@@ -19,7 +19,7 @@ public class Program {
 		ChessMatch chessMatch = new ChessMatch();
 		List<ChessPiece> captured= new ArrayList<>();
 		
-		while (!chessMatch.CheckMate()) {
+		while (!chessMatch.getCheckMate()) {
 		try {	
 			UI.clearScreen();
 			UI.printMatch(chessMatch, captured);
